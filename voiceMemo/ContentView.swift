@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Binding var document: voiceMemoDocument
-
     var body: some View {
-        TextEditor(text: $document.text)
+        Text("hello")
     }
 }
 
 #Preview {
-    ContentView(document: .constant(voiceMemoDocument()))
+    ContentView()
 }
