@@ -11,6 +11,7 @@
 		061E05EA2C67877000207070 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E05E92C67877000207070 /* Int+Extensions.swift */; };
 		061E05ED2C678C3700207070 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E05EC2C678C3700207070 /* TimerViewModel.swift */; };
 		061E05EF2C678C4600207070 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E05EE2C678C4600207070 /* TimerView.swift */; };
+		06489C0E2C74DAC4007A04F2 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06489C0D2C74DAC4007A04F2 /* NotificationService.swift */; };
 		066656752C5A20E8008D4FC0 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066656742C5A20E8008D4FC0 /* Todo.swift */; };
 		066656772C5A21C8008D4FC0 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066656762C5A21C8008D4FC0 /* TodoListViewModel.swift */; };
 		0666567A2C5A2223008D4FC0 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066656792C5A2223008D4FC0 /* TodoViewModel.swift */; };
@@ -46,6 +47,7 @@
 		061E05E92C67877000207070 /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
 		061E05EC2C678C3700207070 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
 		061E05EE2C678C4600207070 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		06489C0D2C74DAC4007A04F2 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		066656742C5A20E8008D4FC0 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		066656762C5A21C8008D4FC0 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 		066656792C5A2223008D4FC0 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 		06E1C8372C5245E3008BA28C /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				06489C0D2C74DAC4007A04F2 /* NotificationService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				068035042C65097000E7AD47 /* Double+Extensions.swift in Sources */,
 				068F447F2C53E4A0002F545E /* PathType.swift in Sources */,
 				068F448A2C53E746002F545E /* MemoView.swift in Sources */,
+				06489C0E2C74DAC4007A04F2 /* NotificationService.swift in Sources */,
 				068035072C6511CC00E7AD47 /* VoiceRecorderViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
